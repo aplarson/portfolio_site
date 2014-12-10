@@ -9,6 +9,12 @@
   bottom: 0;
   width: 25%;
   border-right: 1px solid grey;
+  padding: 25px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: grey;
 }
 
 .content {
@@ -18,5 +24,9 @@
   overflow-y: scroll;
   width: 75%;
   top: 0;
-  background: red;
+}
+
+.content p {
+  width: 75%;
+  margin: auto;
 }
