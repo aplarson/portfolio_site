@@ -1,0 +1,22 @@
+.page-title {
+  text-align: center;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 25%;
+  border-right: 1px solid grey;
+}
+
+.content {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  overflow-y: scroll;
+  width: 75%;
+  top: 0;
+  background: red;
+}
